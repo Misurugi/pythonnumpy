@@ -34,3 +34,4 @@ author_stat = pd.concat([min, max, mean], axis=1)
 author_stat.rename(columns={'price': 'min_price', 'price': 'max_price', 'price': 'mean_price'}, inplace=True)
 
 print(author_stat)
+
